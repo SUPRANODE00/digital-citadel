@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Citadel | Access Gate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="gate-mantle">
+    <div class="sigil-container">
+        <img src="seal.svg" alt="Vertical Zenith Justice Icon" class="rotating-seal">
+    </div>
+    <div class="gateway-panel">
+        <h1>ADMINISTRATIVE NOTICE: JURISDICTIONAL THRESHOLD</h1>
+        <div class="disclaimer-text">
+            <p>You are attempting to access a data stream classified as speculative, theoretical, and artistic. By proceeding, you enter into a binding contractual agreement...</p>
+        </div>
+        <form id="consent-form">
+            <label>
+                <input type="checkbox" id="ack-risk" required>
+                I acknowledge the absolute risks, uncertainties, and speculative nature of the material.
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="no-reliance" required>
+                I affirm I am not relying on this information for real-world operational decisions.
+            </label>
+            <br>
+            <button type="submit" id="enter-citadel" disabled>Accept Terms & Enter</button>
+        </form>
+    </div>
+    <script src="contract.js"></script>
+</body>
+</html>
